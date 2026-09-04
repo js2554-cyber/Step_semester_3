@@ -1,102 +1,30 @@
-# Day 1 Live-Coding Session — 5 Problems
-**BridgeLabz / CodInClub**
+# Step Semester 3
 
-Clean, modular, and fully tested Java implementations for all 5 problems from the Day 1 Live-Coding Session.
+## Date: 05-09-2026
 
----
+**Today's Work:**
+- Initialized repository following the STEP GitHub Repository Structure Guide.
+- Created `main` branch dedicated solely to daily progress logs and documentation.
+- Created `develop` branch containing the clean base Java project skeleton.
+- Created `feature/session_1` branch branched off `develop` for Session 1 (Topic: String).
+- Solved all 5 Day 1 Live-Coding Session problems in `src/main/java/string/class_problems/`:
+  - Rock-Paper-Scissors Game (`RockPaperScissorsGame.java`)
+  - Palindrome Checker 3 Approaches (`PalindromeChecker.java`)
+  - BMI Calculator for a Team (`BmiCalculator.java`)
+  - First Non-Repeating Character (`FirstNonRepeatingCharacter.java`)
+  - Reverse Customer Name (`ReverseCustomerName.java`)
+- Solved all 5 Week 1 Assignment problems in `src/main/java/string/assigment_problems/`:
+  - Exam Hall Seat Duplication Checker (`ExamHallSeatDuplicationChecker.java`)
+  - Typing Speed Test Accuracy Checker (`TypingSpeedTestAccuracyChecker.java`)
+  - Traffic Signal Streak Analyzer (`TrafficSignalStreakAnalyzer.java`)
+  - Warehouse Inventory Balancer (`WarehouseInventoryBalancer.java`)
+  - Movie Review Word Length Profiler (`MovieReviewWordLengthProfiler.java`)
+- Verified all solutions against sample inputs and confirmed all tests pass.
 
-## Problems & Method Signatures
+**Next Session Plan:**
+- Proceed to Session 2 topic and create `feature/session_2` from `develop`.
 
-### 1. Rock-Paper-Scissors Game
-- **File:** `RockPaperScissorsGame.java`
-- **Method Signature:** `String playRound(String playerMove, String computerMove)`
-- **Concepts:** Random number generation, conditional logic, loops, arrays for round tables, formatted/tabular output, percentage calculation.
-- **Rules:**
-  - Rock beats Scissors
-  - Scissors beats Paper
-  - Paper beats Rock
-  - Equal moves result in Draw
-- **Output:** Tabular round-by-round summary and overall statistics (Wins, Losses, Draws, Win %).
-
----
-
-### 2. Palindrome Checker (3 Approaches)
-- **File:** `PalindromeChecker.java`
-- **Method Signatures:**
-  - `boolean isPalindromeIterative(String text)`
-  - `boolean isPalindromeRecursive(String text)`
-  - `boolean isPalindromeArrayReversal(String text)`
-- **Concepts:** Loops, recursion, array manipulation, string comparison, comparing implementation trade-offs.
-- **Sample Output:**
-  - `"madam"` -> `Iterative: Palindrome | Recursive: Palindrome | Array Reversal: Palindrome`
-  - `"hello"` -> `Iterative: Not Palindrome | Recursive: Not Palindrome | Array Reversal: Not Palindrome`
+**Issues Faced:**
+- None
 
 ---
-
-### 3. BMI Calculator for a Team
-- **File:** `BmiCalculator.java`
-- **Method Signatures:**
-  - `String getBmiStatus(double bmi)`
-  - `void printWellnessReport(double[] heights, double[] weights)`
-- **Concepts:** Parallel arrays, arithmetic operations, conditional logic, formatted tabular output.
-- **Classification:**
-  - BMI < 18.5 -> Underweight
-  - 18.5 – 24.9 -> Normal
-  - 25 – 29.9 -> Overweight
-  - >= 30 -> Obese
-
----
-
-### 4. First Non-Repeating Character
-- **File:** `FirstNonRepeatingCharacter.java`
-- **Method Signature:** `char findFirstNonRepeatingChar(String text)`
-- **Concepts:** Character frequency counting, loops, array-based counting, early-exit scanning.
-- **Sample Output:**
-  - `"swiss"` -> `First Non-Repeating Character: 'w'`
-  - `"aabbcc"` -> `No Non-Repeating Character Found`
-
----
-
-### 5. Reverse Customer Name
-- **File:** `ReverseCustomerName.java`
-- **Method Signature:** `String reverseCustomerName(String customerName)`
-- **Concepts:** String traversal, character array manipulation, string reconstruction.
-- **Sample Output:**
-  - `"Sunil"` -> `Original Name: Sunil` | `Reversed Name: linuS`
-
----
-
-## How to Compile and Run
-
-### Compile All Files:
-```bash
-javac *.java
-```
-
-### Run All 5 Problems:
-```bash
-java Main
-```
-
-### Interactive Menu Mode:
-```bash
-java Main --menu
-```
-
-### Run Individual Problems:
-```bash
-java RockPaperScissorsGame
-java PalindromeChecker
-java BmiCalculator
-java FirstNonRepeatingCharacter
-java ReverseCustomerName
-```
-
-To run an individual program in interactive input mode, add `--interactive`:
-```bash
-java RockPaperScissorsGame --interactive
-java PalindromeChecker --interactive
-java BmiCalculator --interactive
-java FirstNonRepeatingCharacter --interactive
-java ReverseCustomerName --interactive
-```
