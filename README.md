@@ -1,99 +1,102 @@
-# Week 1 Assignment — 5 Problems
-**CodInClub powered by BridgeLabz**
+# Day 1 Live-Coding Session — 5 Problems
+**BridgeLabz / CodInClub**
 
-This repository contains clean, modular, and well-tested Java implementations for all 5 problems from the Week 1 assignment.
-
----
-
-## Problems Summary
-
-### 1. The Exam Hall Seat Duplication Checker
-- **File:** `ExamHallSeatDuplicationChecker.java`
-- **Method Signature:** `void checkDuplicateSeats(int[] seatNumbers)`
-- **Concepts:** Arrays, nested loops, conditional logic, basic output formatting.
-- **Constraint:** Uses arrays and loops only — no Collections classes.
-- **Sample Input/Output:**
-  - Input: `{101, 102, 103, 102, 105}`
-    - Output: `Duplicate Seat Number Found: 102`
-  - Input: `{101, 102, 103, 104, 105}`
-    - Output: `No Duplicate Seats Found`
+Clean, modular, and fully tested Java implementations for all 5 problems from the Day 1 Live-Coding Session.
 
 ---
 
-### 2. The Typing Speed Test Accuracy Checker
-- **File:** `TypingSpeedTestAccuracyChecker.java`
-- **Method Signature:** `void checkTypingAccuracy(String original, String typed)`
-- **Concepts:** String traversal, `charAt()`, loops, conditional logic, percentage calculation.
-- **Sample Input/Output:**
-  - Input: `original="hello world", typed="hello worlt"`
-    - Output: `Matched: 10/11 | Accuracy: 90.91% | First Mismatch at position 11 ('d' vs 't')`
-  - Input: `original="coding", typed="coding"`
-    - Output: `Matched: 6/6 | Accuracy: 100.00% | No Mismatches`
+## Problems & Method Signatures
+
+### 1. Rock-Paper-Scissors Game
+- **File:** `RockPaperScissorsGame.java`
+- **Method Signature:** `String playRound(String playerMove, String computerMove)`
+- **Concepts:** Random number generation, conditional logic, loops, arrays for round tables, formatted/tabular output, percentage calculation.
+- **Rules:**
+  - Rock beats Scissors
+  - Scissors beats Paper
+  - Paper beats Rock
+  - Equal moves result in Draw
+- **Output:** Tabular round-by-round summary and overall statistics (Wins, Losses, Draws, Win %).
 
 ---
 
-### 3. The Traffic Signal Streak Analyzer
-- **File:** `TrafficSignalStreakAnalyzer.java`
-- **Method Signature:** `void findLongestStreak(String signalLog)`
-- **Concepts:** String traversal, character comparison, loops, tracking a running maximum.
-- **Sample Input/Output:**
-  - Input: `"RRGGGYRR"`
-    - Output: `Longest Streak: 'G' repeated 3 times`
-  - Input: `"RRRRYYGG"`
-    - Output: `Longest Streak: 'R' repeated 4 times`
+### 2. Palindrome Checker (3 Approaches)
+- **File:** `PalindromeChecker.java`
+- **Method Signatures:**
+  - `boolean isPalindromeIterative(String text)`
+  - `boolean isPalindromeRecursive(String text)`
+  - `boolean isPalindromeArrayReversal(String text)`
+- **Concepts:** Loops, recursion, array manipulation, string comparison, comparing implementation trade-offs.
+- **Sample Output:**
+  - `"madam"` -> `Iterative: Palindrome | Recursive: Palindrome | Array Reversal: Palindrome`
+  - `"hello"` -> `Iterative: Not Palindrome | Recursive: Not Palindrome | Array Reversal: Not Palindrome`
 
 ---
 
-### 4. The Warehouse Inventory Balancer
-- **File:** `WarehouseInventoryBalancer.java`
-- **Method Signature:** `void analyzeInventory(int[] sectionA, int[] sectionB)`
-- **Concepts:** Arrays, loops, sum accumulation, conditional comparison, tracking maximum with its index.
-- **Sample Input/Output:**
-  - Input: `sectionA={20,15,30}, sectionB={25,10,30}`
-    - Output: `Section A Total: 65 | Section B Total: 65 | Status: Balanced | Highest Quantity: 30 (Section A, Item 3)`
+### 3. BMI Calculator for a Team
+- **File:** `BmiCalculator.java`
+- **Method Signatures:**
+  - `String getBmiStatus(double bmi)`
+  - `void printWellnessReport(double[] heights, double[] weights)`
+- **Concepts:** Parallel arrays, arithmetic operations, conditional logic, formatted tabular output.
+- **Classification:**
+  - BMI < 18.5 -> Underweight
+  - 18.5 – 24.9 -> Normal
+  - 25 – 29.9 -> Overweight
+  - >= 30 -> Obese
 
 ---
 
-### 5. The Movie Review Word Length Profiler
-- **File:** `MovieReviewWordLengthProfiler.java`
-- **Method Signature:** `void classifyWordLengths(String review)`
-- **Concepts:** String splitting (`split()`), loops, conditional logic, counting/categorization.
-  - Short: 1–4 letters
-  - Medium: 5–8 letters
-  - Long: 9+ letters
-- **Sample Input/Output:**
-  - Input: `"This movie was absolutely fantastic and thrilling"`
-    - Output: `Short: 3 | Medium: 1 | Long: 3`
+### 4. First Non-Repeating Character
+- **File:** `FirstNonRepeatingCharacter.java`
+- **Method Signature:** `char findFirstNonRepeatingChar(String text)`
+- **Concepts:** Character frequency counting, loops, array-based counting, early-exit scanning.
+- **Sample Output:**
+  - `"swiss"` -> `First Non-Repeating Character: 'w'`
+  - `"aabbcc"` -> `No Non-Repeating Character Found`
+
+---
+
+### 5. Reverse Customer Name
+- **File:** `ReverseCustomerName.java`
+- **Method Signature:** `String reverseCustomerName(String customerName)`
+- **Concepts:** String traversal, character array manipulation, string reconstruction.
+- **Sample Output:**
+  - `"Sunil"` -> `Original Name: Sunil` | `Reversed Name: linuS`
 
 ---
 
 ## How to Compile and Run
 
-### 1. Compile all files
+### Compile All Files:
 ```bash
 javac *.java
 ```
 
-### 2. Run All Demonstrations
+### Run All 5 Problems:
 ```bash
 java Main
 ```
 
-To launch the interactive selection menu:
+### Interactive Menu Mode:
 ```bash
 java Main --menu
 ```
 
-### 3. Run Individual Programs
+### Run Individual Problems:
 ```bash
-java ExamHallSeatDuplicationChecker
-java TypingSpeedTestAccuracyChecker
-java TrafficSignalStreakAnalyzer
-java WarehouseInventoryBalancer
-java MovieReviewWordLengthProfiler
+java RockPaperScissorsGame
+java PalindromeChecker
+java BmiCalculator
+java FirstNonRepeatingCharacter
+java ReverseCustomerName
 ```
 
-Add `--interactive` to run any individual program in interactive input mode, for example:
+To run an individual program in interactive input mode, add `--interactive`:
 ```bash
-java ExamHallSeatDuplicationChecker --interactive
+java RockPaperScissorsGame --interactive
+java PalindromeChecker --interactive
+java BmiCalculator --interactive
+java FirstNonRepeatingCharacter --interactive
+java ReverseCustomerName --interactive
 ```

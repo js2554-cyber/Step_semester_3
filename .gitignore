@@ -1,4 +1,4 @@
-# Java compiled files
+# Java compiled class files
 *.class
 
 # Package files
@@ -14,7 +14,7 @@
 hs_err_pid*
 replay_pid*
 
-# IDE metadata
+# IDE configurations
 .idea/
 *.iml
 .vscode/
