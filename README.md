@@ -1,5 +1,32 @@
 # Step Semester 3
 
+## Date: 05-09-2026 (Session 4)
+
+**Today's Work:**
+- Created `feature/session_4` branch from `develop` for Session 4 (Topic: Array - Category C Problems).
+- Solved all 5 Week 4 Category C Practice problems in `src/main/java/array/class_problems/`:
+  - L1: Two Sum (`TwoSum.java`)
+  - L2: Best Time to Buy and Sell Stock (`BestTimeToBuyAndSellStock.java`)
+  - L3: Contains Duplicate (`ContainsDuplicate.java`)
+  - L4: Merge Two Sorted Arrays (`MergeTwoSortedArrays.java`)
+  - L5: Rotate Array (`RotateArray.java`)
+- Solved all 5 Week 4 Category C Assignment problems in `src/main/java/array/assigment_problems/`:
+  - A1: Product of Array Except Self (`ProductOfArrayExceptSelf.java`)
+  - A2: Maximum Subarray (`MaximumSubarray.java`)
+  - A3: 3Sum (`ThreeSum.java`)
+  - A4: Subarray Sum Equals K (`SubarraySumEqualsK.java`)
+  - A5: Find Minimum in Rotated Sorted Array (`FindMinimumInRotatedSortedArray.java`)
+- Verified all 10 problem solutions with sample test cases and edge cases.
+- Pushed `feature/session_4` branch to remote origin.
+
+**Next Session Plan:**
+- Proceed to Session 5 topic and create `feature/session_5` from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 05-09-2026 (Session 2)
 
 **Today's Work:**
