@@ -1,6 +1,33 @@
 # Step Semester 3
 
-## Date: 05-09-2026
+## Date: 05-09-2026 (Session 2)
+
+**Today's Work:**
+- Created `feature/session_2` branch from `develop` for Session 2 (Topic: String Methods & Manipulation).
+- Solved all 5 Day 2 Live-Coding Session problems in `src/main/java/string/class_problems/`:
+  - Vowel & Consonant Counter (`VowelConsonantCounter.java`)
+  - CSV Student Record Parser (`CsvStudentRecordParser.java`)
+  - File Extension Validator (`FileExtensionValidator.java`)
+  - Masked Phone Number Formatter (`MaskedPhoneNumberFormatter.java`)
+  - Bank Transaction Reference Generator & Validator (`BankTransactionReferenceValidator.java`)
+- Solved all 5 Week 2 Assignment problems in `src/main/java/string/assigment_problems/`:
+  - ATM PIN Length Validator (`AtmPinLengthValidator.java`)
+  - Word Reversal Encoder (`WordReversalEncoder.java`)
+  - Product Inventory CSV Parser (`ProductInventoryCsvParser.java`)
+  - Library ISBN Normalizer & Validator (`LibraryIsbnNormalizerValidator.java`)
+  - Stop-Word-Filtered Word Frequency Report (`StopWordFilteredFrequencyReport.java`)
+- Verified all 10 problem solutions with sample test cases and edge cases.
+- Pushed `feature/session_2` branch to remote origin.
+
+**Next Session Plan:**
+- Proceed to Session 3 topic and create `feature/session_3` from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 05-09-2026 (Session 1)
 
 **Today's Work:**
 - Initialized repository following the STEP GitHub Repository Structure Guide.
