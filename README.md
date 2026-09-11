@@ -1,5 +1,32 @@
 # Step Semester 3
 
+## Date: 11-09-2026 (Session 5)
+
+**Today's Work:**
+- Created `feature/session_5` branch from `develop` for Session 5 (Topic: Java Arrays and Methods - Category C Problems).
+- Solved all 5 Week 5 Category C Practice problems in `src/main/java/arrays_and_methods/class_problems/`:
+  - Problem 1: Hackathon Score Curve Booster (`HackathonScoreCurveBooster.java`)
+  - Problem 2: Duplicate Team Name Finder (`DuplicateTeamNameFinder.java`)
+  - Problem 3: Top-3 Podium Finder (`TopThreePodiumFinder.java`, `Top3PodiumFinder.java`)
+  - Problem 4: Hackathon Seating Grid Optimizer (`HackathonSeatingGridOptimizer.java`)
+  - Problem 5: Placement Drive Shortlisting & Ranking Engine (`PlacementDriveShortlistingEngine.java`, `Candidate.java`)
+- Solved all 5 Week 5 Category C Assignment problems in `src/main/java/arrays_and_methods/assigment_problems/`:
+  - Problem 1: Fantasy Team Score Multiplier (`FantasyTeamScoreMultiplier.java`)
+  - Problem 2: Duplicate Player Pick Checker (`DuplicatePlayerPickChecker.java`)
+  - Problem 3: Top Performer Tracker (`TopPerformerTracker.java`)
+  - Problem 4: Match Day Grid Analyzer (`MatchDayGridAnalyzer.java`)
+  - Problem 5: Fantasy League Auto-Draft Ranking Engine (`FantasyLeagueAutoDraftRankingEngine.java`, `Player.java`)
+- Verified all 10 problem solutions with sample test cases and edge cases.
+- Pushed `feature/session_5` branch to remote origin.
+
+**Next Session Plan:**
+- Proceed to Session 6 topic and create `feature/session_6` from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 05-09-2026 (Session 4)
 
 **Today's Work:**
